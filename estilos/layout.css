@@ -1,0 +1,95 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+body video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+body>header{
+    background-color: rgb(0, 0, 0);
+    color:rgb(58, 51, 51);
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1100;
+}
+header figure{
+    margin: 15px;
+
+}
+header h1{
+    margin:0  ;
+    font-size: 24px;
+    color:rgb(255, 255, 255) ;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+    display: block;
+    clear: both;
+    margin-top: 110px;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    color: rgb(255, 0, 0);
+    margin: 0 30px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-left: 100px;
+}
+main section{
+    padding: 30px;
+}
+aside{
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    background: linear-gradient(45deg, #005e75, #000000);
+    color: rgb(160, 154, 154);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    border-radius: 8px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
